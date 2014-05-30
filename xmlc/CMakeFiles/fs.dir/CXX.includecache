@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/visus/Desktop/opencv/xmlc/fs.cpp
+opencv2/opencv.hpp
+/home/visus/Desktop/opencv/xmlc/opencv2/opencv.hpp
+time.h
+-
+

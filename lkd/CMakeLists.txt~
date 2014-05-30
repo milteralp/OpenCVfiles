@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( lkd )
+find_package( OpenCV REQUIRED )
+add_executable( lkd lkd.cpp )
+target_link_libraries( lkd ${OpenCV_LIBS} )

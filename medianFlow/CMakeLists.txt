@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( medianFlow )
+find_package( OpenCV REQUIRED )
+add_executable( medianFlow medianFlow.cpp )
+target_link_libraries( medianFlow ${OpenCV_LIBS} )

@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( cornerSubPix )
+find_package( OpenCV REQUIRED )
+add_executable( cornerSubPix cornerSubPix.cpp )
+target_link_libraries( cornerSubPix ${OpenCV_LIBS} )

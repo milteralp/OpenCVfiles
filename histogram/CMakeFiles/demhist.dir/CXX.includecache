@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/visus/Desktop/opencv/histogram/demhist.cpp
+opencv2/highgui/highgui.hpp
+/home/visus/Desktop/opencv/histogram/opencv2/highgui/highgui.hpp
+opencv2/imgproc/imgproc.hpp
+/home/visus/Desktop/opencv/histogram/opencv2/imgproc/imgproc.hpp
+iostream
+-
+stdio.h
+-
+

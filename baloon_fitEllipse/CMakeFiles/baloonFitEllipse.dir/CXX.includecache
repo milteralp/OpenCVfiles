@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/visus/Desktop/opencv/baloon_fitEllipse/baloonFitEllipse.cpp
+opencv2/highgui/highgui.hpp
+/home/visus/Desktop/opencv/baloon_fitEllipse/opencv2/highgui/highgui.hpp
+opencv2/imgproc/imgproc.hpp
+/home/visus/Desktop/opencv/baloon_fitEllipse/opencv2/imgproc/imgproc.hpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+

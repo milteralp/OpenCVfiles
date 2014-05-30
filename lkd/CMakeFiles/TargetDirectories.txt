@@ -1,0 +1,1 @@
+/home/visus/Desktop/opencv/lkd/CMakeFiles/lkdemo.dir

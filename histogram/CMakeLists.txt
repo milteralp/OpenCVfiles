@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( demhist )
+find_package( OpenCV REQUIRED )
+add_executable( demhist demhist.cpp )
+target_link_libraries( demhist ${OpenCV_LIBS} )

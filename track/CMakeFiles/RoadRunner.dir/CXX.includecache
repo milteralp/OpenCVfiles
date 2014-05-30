@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/visus/Desktop/opencv/track/RoadRunner.cpp
+opencv2/video/tracking.hpp
+/home/visus/Desktop/opencv/track/opencv2/video/tracking.hpp
+opencv2/imgproc/imgproc.hpp
+/home/visus/Desktop/opencv/track/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/visus/Desktop/opencv/track/opencv2/highgui/highgui.hpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+ctype.h
+-
+

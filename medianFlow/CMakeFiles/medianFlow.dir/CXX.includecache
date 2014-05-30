@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/visus/Desktop/opencv/medianFlow/medianFlow.cpp
+medianFlow.h
+/home/visus/Desktop/opencv/medianFlow/medianFlow.h
+
+/home/visus/Desktop/opencv/medianFlow/medianFlow.h
+iostream
+-
+opencv2/opencv.hpp
+/home/visus/Desktop/opencv/medianFlow/opencv2/opencv.hpp
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+/home/visus/Desktop/opencv/medianFlow/opencv2/imgproc/imgproc.hpp
+opencv2/core/core.hpp
+-
+vector
+-
+stdio.h
+-
+stdlib.h
+-
+

@@ -1,0 +1,1 @@
+/home/visus/Desktop/opencv/baloon_fitEllipse/CMakeFiles/baloonFitEllipse.dir

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/visus/Desktop/opencv/findC/contours2.cpp
+opencv2/imgproc/imgproc.hpp
+/home/visus/Desktop/opencv/findC/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/visus/Desktop/opencv/findC/opencv2/highgui/highgui.hpp
+math.h
+-
+iostream
+-
+

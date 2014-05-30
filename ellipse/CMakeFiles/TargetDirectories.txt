@@ -1,0 +1,1 @@
+/home/visus/Desktop/opencv/ellipse/CMakeFiles/main.dir

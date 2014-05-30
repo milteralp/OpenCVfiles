@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( plotHist )
+find_package( OpenCV REQUIRED )
+add_executable( plotHist plotHist.cpp )
+target_link_libraries( plotHist ${OpenCV_LIBS} )

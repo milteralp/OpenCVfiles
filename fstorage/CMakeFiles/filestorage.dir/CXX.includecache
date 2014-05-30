@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/visus/Desktop/opencv/fstorage/filestorage.cpp
+opencv2/core/core.hpp
+/home/visus/Desktop/opencv/fstorage/opencv2/core/core.hpp
+iostream
+-
+string
+-
+

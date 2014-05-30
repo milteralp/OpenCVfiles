@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/visus/Desktop/opencv/TrackingPoints/TrackingPoints.cpp
+../Header/TrackingPoints.h
+/home/visus/Desktop/opencv/Header/TrackingPoints.h
+
+/home/visus/Desktop/opencv/TrackingPoints/main.cpp
+xmlParser.h
+/home/visus/Desktop/opencv/TrackingPoints/xmlParser.h
+Ellipse.h
+/home/visus/Desktop/opencv/TrackingPoints/Ellipse.h
+

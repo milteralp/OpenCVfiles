@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/visus/Desktop/opencv/contour/others/fitellipse/fitellipse.cpp
+opencv2/imgproc/imgproc.hpp
+/home/visus/Desktop/opencv/contour/others/fitellipse/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/visus/Desktop/opencv/contour/others/fitellipse/opencv2/highgui/highgui.hpp
+iostream
+-
+

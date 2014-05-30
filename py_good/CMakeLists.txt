@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( GoodFeaturesToTrack )
+find_package( OpenCV REQUIRED )
+add_executable( GoodFeaturesToTrack GoodFeaturesToTrack.cpp )
+target_link_libraries( GoodFeaturesToTrack ${OpenCV_LIBS} )

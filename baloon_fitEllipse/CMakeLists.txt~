@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( baloon_fitEllipse )
+find_package( OpenCV REQUIRED )
+add_executable( baloon_fitEllipse baloon_fitEllipse.cpp )
+target_link_libraries( baloon_fitEllipse ${OpenCV_LIBS} )

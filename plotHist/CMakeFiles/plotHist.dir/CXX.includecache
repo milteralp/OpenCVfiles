@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/visus/Desktop/opencv/plotHist/plotHist.cpp
+opencv2/highgui/highgui.hpp
+/home/visus/Desktop/opencv/plotHist/opencv2/highgui/highgui.hpp
+opencv2/imgproc/imgproc.hpp
+/home/visus/Desktop/opencv/plotHist/opencv2/imgproc/imgproc.hpp
+iostream
+-
+

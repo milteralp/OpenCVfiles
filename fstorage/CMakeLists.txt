@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( filestorage )
+find_package( OpenCV REQUIRED )
+add_executable( filestorage filestorage.cpp )
+target_link_libraries( filestorage ${OpenCV_LIBS} )
